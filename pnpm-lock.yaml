@@ -192,6 +192,24 @@ importers:
       vitest:
         specifier: ^3.2.4
         version: 3.2.4(@types/node@20.19.37)(jiti@2.6.1)(jsdom@27.4.0)(lightningcss@1.31.1)(yaml@2.8.2)
+      '@gsap/react':
+        specifier: ^2.1.2
+        version: 2.1.2(gsap@3.14.2)(react@19.2.4)
+      '@react-three/drei':
+        specifier: ^10.7.7
+        version: 10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.180.0))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.180.0)
+      '@react-three/fiber':
+        specifier: ^9.5.0
+        version: 9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.180.0)
+      '@types/three':
+        specifier: ^0.183.1
+        version: 0.183.1
+      gsap:
+        specifier: ^3.14.2
+        version: 3.14.2
+      three:
+        specifier: ^0.180.0
+        version: 0.180.0
 
 packages:
 
@@ -6445,22 +6463,4 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.2.14
       react: 19.2.4
-      use-sync-external-store: 1.6.0(react@19.2.4)      '@gsap/react':
-        specifier: ^2.1.2
-        version: 2.1.2(gsap@3.14.2)(react@19.2.4)
-      '@react-three/drei':
-        specifier: ^10.7.7
-        version: 10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.180.0))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.180.0)
-      '@react-three/fiber':
-        specifier: ^9.5.0
-        version: 9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.180.0)
-      '@types/three':
-        specifier: ^0.183.1
-        version: 0.183.1
-      gsap:
-        specifier: ^3.14.2
-        version: 3.14.2
-      three:
-        specifier: ^0.180.0
-        version: 0.180.0
-
+      use-sync-external-store: 1.6.0(react@19.2.4)
